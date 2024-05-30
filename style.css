@@ -11,16 +11,16 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  font-family: "Poppins", sans-serif;
 }
 
 .big-box {
-  background: rgba(255, 255, 255, 0.1);
+  background: black;
   opacity: 0.8;
   border-radius: 25px;
   padding: 20px;
   width: 95%;
   max-width: 450px;
-  backdrop-filter: blur(31px);
 }
 
 .input-city {
