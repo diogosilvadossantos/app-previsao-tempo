@@ -47,8 +47,35 @@ body {
   width: 20px;
 }
 
+.medium-box {
+  margin-top: 30px;
+}
+
 .city {
   color: #fff;
   font-size: 28px;
   font-weight: 300;
+}
+
+.temp {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.small-box {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-forecast {
+  color: white;
+  margin-left: 20px;
+}
+
+.text-moisture {
+  color: white;
+  margin-top: 20px;
 }

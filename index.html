@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./scripts.js"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="big-box">
       <input class="input-city" placeholder="Digite o nome da cidade" />
-      <button class="button-search">
+      <button class="button-search" onclick="clickSearch()">
         <img class="img-search" src="./img/find.svg" alt="buscar" />
       </button>
       <div class="medium-box">
@@ -22,7 +23,7 @@
           <p class="text-forecast">Nublado</p>
         </div>
 
-        <p>Umidade: 76%</p>
+        <p class="text-moisture">Umidade: 76%</p>
       </div>
     </div>
   </body>
